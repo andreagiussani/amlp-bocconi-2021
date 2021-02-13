@@ -6,7 +6,7 @@ You can reach him out either at [:email:](andrea.giussani@unibocconi.it) or on [
 
 ## Repository Structure
 You will find:
- - a `data` folder containing the data used in this course (also available [here](https://github.com/andreagiussani/Applied_Machine_Learning_with_Python);
+ - a `data` folder containing the data used in this course (also available [here](https://github.com/andreagiussani/Applied_Machine_Learning_with_Python));
  - a folder called `miscellanea` containing extra material related to the course;
 
 ## Setting Up the Google Colab Environment
@@ -42,6 +42,8 @@ and then clone the following repository:
 ```python
 !git clone https://github.com/andreagiussani/Applied_Machine_Learning_with_Python.git
 ```
+After this, the source library is available in your session. However, we need to perform two extra steps before working with it. <br>
+First, we need to move to the `egeaML` folder using `%cd Applied_Machine_Learning_with_Python`, and then we need to install the `wget` library inside our session - this library is not preinstalled in Colab - with the pip manager. Just type in any cell `!pip install wget`.
 
 ### 4. Let's get our hands dirty
 Now, you have to navigate inside the Google Drive folder where the repo has been cloned. Once there, you just need to type, say, 
