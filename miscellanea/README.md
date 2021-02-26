@@ -10,8 +10,8 @@
 - K-NN Imputer: original paper in pdf [here](https://academic.oup.com/bioinformatics/article/17/6/520/272365)
 - Iterative Imputer: nice reference (written for the R software) [here](https://www.jstatsoft.org/article/view/v045i03).
 
-I have a few thesis ideas on this topic. Please drop me a line if interested.
+**I have a few thesis ideas on this topic. Please drop me a line if interested.**
 
-# Regularized Models
+## Regularized Models
  - Lasso original [paper](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf);
  - ElasticNet scikit-learn implementation in the file `elastic_net.py`  
